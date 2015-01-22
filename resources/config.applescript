@@ -284,7 +284,7 @@ on disableShuffle()
 
 		tell process "iTunes"
 
-			click menu item 2 of menu 1 of menu item "Shuffle" of menu 1 of menu bar item "Controls" of menu bar 1
+			click menu item 2 of menu 1 of menu item (localized string of "Shuffle") of menu 1 of menu bar item (localized string of "Controls") of menu bar 1
 
 		end tell
 
